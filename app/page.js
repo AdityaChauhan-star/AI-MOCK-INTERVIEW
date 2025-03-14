@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Button } from '@/components/ui/button';
 import Head from 'next/head';
 import Contact from '@/_components/Contact';
@@ -118,11 +118,26 @@ const page = () => {
         </section>
       </main>
 
+      {/* Footer Section */}
       <footer className="py-8 bg-black text-white text-center">
-        <p>© 2024 AI Mock Interview. All rights reserved.</p>
+        <p className="text-sm">
+          © 2024 AI Mock Interview. All rights reserved.
+        </p>
+        <p className="text-sm mt-2">
+          Developed by <span className="font-semibold">Vikas T G</span> | 
+          <a href="mailto:vikastg2000@gmail.com" className="text-blue-400 hover:text-blue-300 ml-1">
+            vikastg2000@gmail.com
+          </a>
+        </p>
+        <p className="text-sm mt-2">
+          Powered by Next.js, Tailwind CSS, and AI technologies.
+        </p>
+        <p className="text-sm mt-2">
+          All trademarks, logos, and brand names are the property of their respective owners.
+        </p>
       </footer>
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;

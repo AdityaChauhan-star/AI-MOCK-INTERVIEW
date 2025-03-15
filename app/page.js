@@ -121,10 +121,10 @@ const page = () => {
       {/* Footer Section */}
       <footer className="py-8 bg-black text-white text-center">
         <p className="text-sm">
-          © 2024 AI Mock Interview. All rights reserved.
+          © 2025 AI Mock Interview. All rights reserved.
         </p>
         <p className="text-sm mt-2">
-          Developed by <span className="font-semibold">Vikas T G</span> | 
+          For More Information Contact  <span className="font-semibold">Vikas T G</span> | 
           <a href="mailto:vikastg2000@gmail.com" className="text-blue-400 hover:text-blue-300 ml-1">
             vikastg2000@gmail.com
           </a>

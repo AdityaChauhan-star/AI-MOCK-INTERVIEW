@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI-Powered Mock Interview Platform
+
+## Description
+This is an advanced and interactive AI-powered mock interview platform designed to help job seekers practice and improve their interview skills. Built with Next.js, Tailwind CSS, and Gemini Api,PostgreSQL, Drizzle ORM, it provides users with a good interview experience to enhance their chances of landing their dream job.
+
+## Features
+- AI-driven Interview: interview questions and feedback powered by AI.
+- Personalized Interview Experiences: Tailor interview sessions based on job roles and industries.
+- User Experience Level Questions: Questions are adjusted based on the user's experience level, ensuring relevance and appropriate difficulty.
+- Detailed Feedback and Insights: Receive detailed feedback on your performance, including strengths, areas for improvement, and actionable tips.
+- Question Bank: Access a wide range of interview questions across different domains and difficulty levels.
+- Overall Grade: Receive an overall grade for each interview session, providing a quick assessment of your performance.
+- Recent Interviews: Easily access and review your recent interview sessions directly from the home page.
 
 ## Getting Started
+To get started with the AI-Powered Mock Interview Platform, follow these steps:
 
-First, run the development server:
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/18vikastg/AI-Mock-Interview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. Navigate to the project directory:
+   ```bash
+   cd ai-mock-interview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Install dependencies by running: `npm install` or `yarn install`
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+4. Start the Server `npm run dev` or `yarn dev`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+5. Access the Application: Open your browser and go to http://localhost:3000 to access the application.
 
-## Learn More
+## Technologies Used
+- Next.js: A React framework for building server-side rendered and static web applications.
+- Gemini API: Provides an interface for accessing the AI interview functionalities.
+- PostgreSQL: A powerful, open-source object-relational database system.
+- Neon Serverless: A serverless deployment for PostgreSQL, offering scalability and ease of use.
+- Drizzle ORM: An ORM that makes database interactions simpler and more intuitive.
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
+To use the AI-Powered Mock Interview Platform, follow these guidelines:
+- Create an Account: Sign up to start your mock interview sessions.
+- Choose Interview Type: Select the type of interview (e.g., technical, behavioral) and job role
+- Start Interview: Begin your mock interview and respond to the AI-generated questions.
+- Receive Feedback: After completing the interview, get detailed feedback and insights to improve.
+- Review Recent Interviews: Access your most recent interviews directly from the home page for quick review and continued improvement.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Feedback
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+If you have any feedback, please reach me at [vikastg2000@gmail.com](mailto:vikastg2000@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/vikas-t-g-09692325a/).
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+1. Fork this repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them to your branch.
+4. Push your changes to your forked repository.
+5. Submit a pull request to the main repository.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Support
+
+Show your support by 🌟 the project!!

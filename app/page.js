@@ -119,22 +119,50 @@ const page = () => {
       </main>
 
       {/* Footer Section */}
-      <footer className="py-8 bg-black text-white text-center">
-        <p className="text-sm">
-          © 2025 AI Mock Interview. All rights reserved.
-        </p>
-        <p className="text-sm mt-2">
-          For More Information Contact  <span className="font-semibold">Vikas T G</span> | 
-          <a href="mailto:vikastg2000@gmail.com" className="text-blue-400 hover:text-blue-300 ml-1">
-            vikastg2000@gmail.com
-          </a>
-        </p>
-        <p className="text-sm mt-2">
-          Powered by Next.js, Tailwind CSS, and AI technologies.
-        </p>
-        <p className="text-sm mt-2">
-          All trademarks, logos, and brand names are the property of their respective owners.
-        </p>
+      <footer className="py-16 bg-card border-t border-border">
+        <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12">
+          <div>
+            <h3 className="text-2xl font-bold text-foreground mb-4 tracking-tight">AI Mock Interview</h3>
+            <p className="text-muted-foreground font-light">Empowering your career with AI-driven preparation.</p>
+          </div>
+          <div>
+            <h4 className="text-lg font-semibold text-foreground mb-4">Quick Links</h4>
+            <ul className="space-y-2">
+              <li><a href="#features" className="text-muted-foreground hover:text-primary transition-colors duration-300">Features</a></li>
+              <li><a href="#pricing" className="text-muted-foreground hover:text-primary transition-colors duration-300">Pricing</a></li>
+              <li><a href="#testimonials" className="text-muted-foreground hover:text-primary transition-colors duration-300">Testimonials</a></li>
+              <li><a href="#contact" className="text-muted-foreground hover:text-primary transition-colors duration-300">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="text-lg font-semibold text-foreground mb-4">Connect</h4>
+            <div className="flex space-x-4">
+              <a href="https://github.com/18vikastg" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors duration-300" aria-label="GitHub">
+                <FaGithub className="w-6 h-6" />
+              </a>
+              {/* Add more social links as needed */}
+            </div>
+          </div>
+          <div>
+            <h4 className="text-lg font-semibold text-foreground mb-4">Stay Updated</h4>
+            <form className="flex flex-col gap-2">
+              <input
+                type="email"
+                placeholder="Enter your email"
+                className="px-4 py-2 bg-input border border-border rounded-md text-foreground focus:outline-none focus:ring-2 focus:ring-ring"
+                aria-label="Email for newsletter"
+              />
+              <Button className="bg-primary text-primary-foreground hover:bg-[hsl(var(--primary)/0.9)] transition-all duration-300">
+                Subscribe
+              </Button>
+            </form>
+          </div>
+        </div>
+        <div className="container mx-auto px-6 mt-12 text-center">
+          <p className="text-muted-foreground text-sm font-light">
+            © {new Date().getFullYear()} AI Mock Interview. All rights reserved.
+          </p>
+        </div>
       </footer>
     </div>
   );

@@ -45,7 +45,7 @@ const QuestionsSection = ({ mockInterviewQuestions, activeQuestionIndex }) => {
               <strong>Note:</strong>
             </h2>
             <h2 className="text-sm text-primary my-2">
-              {process.env.NEXT_PUBLIC_QUESTION_NOTE || "No additional notes available."}
+              {process.env.NEXT_PUBLIC_QUESTION_NOTE || "For questions related to tech stacks, try to explain each component clearly and briefly with its specific role."}
             </h2>
           </div>
         </div>

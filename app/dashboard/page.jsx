@@ -56,7 +56,7 @@ const Dashboard = () => {
               </div>
               <div>
                 <p className="text-sm text-muted-foreground">Total Interviews</p>
-                <h3 className="text-2xl font-semibold text-foreground">24</h3>
+                <h3 className="text-2xl font-semibold text-foreground">25</h3>
               </div>
             </div>
           </div>
@@ -82,7 +82,7 @@ const Dashboard = () => {
               </div>
               <div>
                 <p className="text-sm text-muted-foreground">Pending</p>
-                <h3 className="text-2xl font-semibold text-foreground">6</h3>
+                <h3 className="text-2xl font-semibold text-foreground">7</h3>
               </div>
             </div>
           </div>
@@ -95,7 +95,7 @@ const Dashboard = () => {
               Start a New Interview
             </h3>
             <button className="text-sm text-primary hover:text-primary-foreground font-medium transition-colors">
-              View Guide →
+               →
             </button>
           </div>
           <AddNewInterview />
@@ -123,7 +123,7 @@ const Dashboard = () => {
       {/* Footer */}
       <footer className="bg-card border-t border-border mt-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 text-sm text-muted-foreground">
-          © {new Date().getFullYear()} AI Interview Platform. All rights reserved.
+          © {new Date().getFullYear()} AI Mock Interview Platform. All rights reserved.
         </div>
       </footer>
     </div>

@@ -146,11 +146,11 @@ function AddNewInterview() {
                                 <div className='space-y-4'>
                                     <div className='my-3'>
                                         <label className="block mb-2 text-sm font-medium">Job Role/Job Position</label>
-                                        <Input placeholder='Ex. Full Stack Developer' required className="w-full p-2 border rounded" value={jobPosition} onChange={(event) => setJobPosition(event.target.value)} />
+                                        <Input placeholder='Ex. Full Stack Developer, Software Developer' required className="w-full p-2 border rounded" value={jobPosition} onChange={(event) => setJobPosition(event.target.value)} />
                                     </div>
                                     <div className='my-3'>
                                         <label className="block mb-2 text-sm font-medium">Job Description/Tech Stack (In Short)</label>
-                                        <TextareaAutosize placeholder='Ex. Angular, React, Node.js, MySql etc.' required className="w-full p-2 border rounded" value={jobDescription} onChange={(event) => setJobDescription(event.target.value)} />
+                                        <TextareaAutosize placeholder='Ex. Angular, React, Node.js, MySQL etc.' required className="w-full p-2 border rounded font-semibold" value={jobDescription} onChange={(event) => setJobDescription(event.target.value)} />
                                     </div>
                                     <div className='my-3'>
                                         <label className="block mb-2 text-sm font-medium">Years of experience</label>
@@ -163,7 +163,7 @@ function AddNewInterview() {
                         <div className='flex gap-4 justify-end mt-6'>
                             <Button type="button" variant="outlined" onClick={() => setOpenDialog(false)}>Cancel</Button>
                             <Button type="submit" disabled={loading} variant="contained" color="primary" onClick={onSubmit}>
-                                {loading ? <span>Generating from AI...</span> : 'Start Interview'}
+                                {loading ? <span>Generating from AI....</span> : 'Start Interview'}
                             </Button>
                         </div>
                     </DialogContent>

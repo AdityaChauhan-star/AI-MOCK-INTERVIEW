@@ -29,13 +29,13 @@ export default function Page() {
           </a>
   
           <h2 className="mt-6 text-2xl font-bold text-white sm:text-3xl md:text-4xl">
-            Welcome to AI interview Mocker 🦑
+            Welcome to AI interview Mocker 
           </h2>
   
           <p className="mt-4 leading-relaxed text-white/90">
           🚀 Your Smart Platform for Seamless, AI-Powered Interviews
 
-Conduct professional interviews with real-time video calls, instant AI-generated answers, and synchronized notes — all in an intuitive, Meet-like interface.
+Conduct professional interviews with real-time feedback, instant AI-generated answers, and synchronized notes — all in an intuitive, Meet-like interface.
           </p>
         </div>
       </section>

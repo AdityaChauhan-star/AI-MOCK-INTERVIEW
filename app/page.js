@@ -3,7 +3,8 @@ import { Button } from '@/components/ui/button';
 import Head from 'next/head';
 import Contact from '@/_components/Contact';
 import Link from 'next/link';
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+
 
 const page = () => {
   return (
@@ -24,13 +25,13 @@ const page = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://github.com/18vikastg">
+                  href="https://github.com/AdityaChauhan-star">
                   <FaGithub className="w-10 h-8" />
                 </a>
               </div>
               <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0">
                 <a href="#features" className="text-lg text-gray-800 mx-2 md:mx-4">Features</a>
-                <a href="#testimonials" className="text-lg text-gray-800 mx-2 md:mx-4">Testimonials</a>
+                <a href="#testimonials" className="text-lg text-gray-800 mx-2 md:mx-4">User Feedback</a>
                 <a href="#contact" className="text-lg text-gray-800 mx-2 md:mx-4">Contact</a>
               </div>
             </nav>
@@ -38,7 +39,7 @@ const page = () => {
         </header>
 
         {/* Hero Section */}
-        <section className="flex flex-col items-center justify-center text-center py-20 bg-gradient-to-r from-gray-900 to-gray-400  px-6 md:px-0">
+        <section className="flex flex-col items-center justify-center text-center py-20 bg-gradient-to-r from-gray-900 to-gray-500  px-6 md:px-0">
           <h2 className="text-4xl md:text-5xl font-bold text-white">Ace Your Next Interview</h2>
           <p className="mt-4 text-lg md:text-xl text-white ">Practice with AI-powered mock interviews and get personalized feedback</p>
           <div className="mt-6 flex flex-col md:flex-row">
@@ -90,14 +91,14 @@ const page = () => {
         {/* Testimonials Section */}
         <section id="testimonials" className="py-16 bg-gray-50 px-6 md:px-0">
           <div className="container mx-auto text-center">
-            <h2 className="text-4xl font-bold text-gray-800">What Our Users Say</h2>
+            <h2 className="text-4xl font-bold text-gray-800">User's Feedback</h2>
             <div className="flex flex-wrap justify-center mt-8">
               <div className="w-full md:w-1/2 px-4 py-8">
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <p className="text-gray-600">
-                    "The AI mock interviews were incredibly helpful. I felt much more confident going into my real interview."
+                    "Good experience overall. The difficulty level matched my expectations and the suggestions were actionable. I would recommend this to anyone preparing for interviews."
                   </p>
-                  <h4 className="mt-4 text-lg font-semibold text-blue-600">- Alex Johnson</h4>
+                  <h4 className="mt-4 text-lg font-semibold text-blue-600">- Aditya Chauhan</h4>
                 </div>
               </div>
               <div className="w-full md:w-1/2 px-4 py-8">
@@ -105,7 +106,31 @@ const page = () => {
                   <p className="text-gray-600">
                     "The feedback was spot on and helped me improve my answers. Highly recommend this service!"
                   </p>
-                  <h4 className="mt-4 text-lg font-semibold text-blue-600">- Sarah Williams</h4>
+                  <h4 className="mt-4 text-lg font-semibold text-blue-600">- Yogesh Dangwal</h4>
+                </div>
+              </div>
+              <div className="w-full md:w-1/2 px-4 py-8">
+                <div className="bg-white rounded-lg p-6 shadow-md">
+                  <p className="text-gray-600">
+                    "The mock interview was incredibly helpful! The questions were relevant and the AI's feedback felt personalized. I feel more confident now."
+                  </p>
+                  <h4 className="mt-4 text-lg font-semibold text-blue-600">- Tanushi Singh</h4>
+                </div>
+              </div>
+              <div className="w-full md:w-1/2 px-4 py-8">
+                <div className="bg-white rounded-lg p-6 shadow-md">
+                  <p className="text-gray-600">
+                    "Great tool for practicing interviews. It helped me identify my weak areas clearly."
+                  </p>
+                  <h4 className="mt-4 text-lg font-semibold text-blue-600">- Aditya Sridhar</h4>
+                </div>
+              </div>
+              <div className="w-full md:w-1/2 px-4 py-8">
+                <div className="bg-white rounded-lg p-6 shadow-md">
+                  <p className="text-gray-600">
+                    "This is a must-use before any real interview. Helps reduce anxiety and improves articulation."
+                  </p>
+                  <h4 className="mt-4 text-lg font-semibold text-blue-600">- Ankit Yadav</h4>
                 </div>
               </div>
             </div>
@@ -130,15 +155,18 @@ const page = () => {
             <ul className="space-y-2">
               <li><a href="#features" className="text-muted-foreground hover:text-primary transition-colors duration-300">Features</a></li>
               <li><a href="#pricing" className="text-muted-foreground hover:text-primary transition-colors duration-300">Pricing</a></li>
-              <li><a href="#testimonials" className="text-muted-foreground hover:text-primary transition-colors duration-300">Testimonials</a></li>
-              <li><a href="#contact" className="text-muted-foreground hover:text-primary transition-colors duration-300">Contact</a></li>
+              <li><a href="#testimonials" className="text-muted-foreground hover:text-primary transition-colors duration-300">Feedback</a></li>
+              <li><a href="#contact" className="text-muted-foreground hover:text-primary transition-colors duration-300">Contact Us</a></li>
             </ul>
           </div>
           <div>
             <h4 className="text-lg font-semibold text-foreground mb-4">Connect</h4>
             <div className="flex space-x-4">
-              <a href="https://github.com/18vikastg" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors duration-300" aria-label="GitHub">
+              <a href="https://github.com/AdityaChauhan-star" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors duration-300" aria-label="GitHub">
                 <FaGithub className="w-6 h-6" />
+              </a>
+              <a href="https://www.linkedin.com/in/aditya-chauhan-016986247/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors duration-300" aria-label="LinkedIn">
+                <FaLinkedin className="w-6 h-6" />
               </a>
               {/* Add more social links as needed */}
             </div>

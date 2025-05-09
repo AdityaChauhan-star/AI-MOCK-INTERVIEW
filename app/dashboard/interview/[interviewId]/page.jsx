@@ -90,8 +90,21 @@ function Interview() {
                             <Lightbulb />
                             <strong>Information</strong>
                         </h2>
-                        <h2 className="mt-3">{process.env.NEXT_PUBLIC_INFORMATION}</h2>
+
+                        <h2 className="mt-3">
+                            Please answer the upcoming questions as naturally and honestly as you would in a real interview.
+                            The AI interviewer will adapt its questions based on your responses.
+                        </h2>
+
+                        <h2 className="mt-3">
+                            ⚠️ <strong>Reminder:</strong> Ensure your <strong>Webcam</strong> and <strong>Microphone</strong> are enabled before starting the interview.
+                        </h2>
+
+                        {process.env.NEXT_PUBLIC_INFORMATION && (
+                            <h2 className="mt-3">{process.env.NEXT_PUBLIC_INFORMATION}</h2>
+                        )}
                     </div>
+
                 </div>
                 <div>
                     {webCamEnabled ? (
